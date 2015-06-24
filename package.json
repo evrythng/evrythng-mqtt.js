@@ -1,0 +1,38 @@
+{
+  "name": "evrythng-mqtt",
+  "version": "1.0.0",
+  "main": "lib/evrythng-mqtt.js",
+  "description": "Evrythng.js MQTT plugin for MQTT real-time communication with EVRYTHNG API",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/evrythng/evrythng-mqtt.js.git"
+  },
+  "keywords": [
+    "evrythng",
+    "everything",
+    "thng",
+    "evt",
+    "iot",
+    "internet of things",
+    "wot",
+    "web of things",
+    "thng-hub",
+    "hub",
+    "mqtt"
+  ],
+  "author": "EVRYTHNG Ltd.",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "https://github.com/evrythng/evrythng-mqtt.js/blob/master/LICENSE"
+    }
+  ],
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "request": "^2.53.0",
+    "evrythng": "^3.1.0"
+  },
+  "ignore": [
+    "dist"
+  ]
+}
