@@ -12,7 +12,7 @@ WebSockets is coming shortly.
 
 ### Node.js
 
-    npm install evrythng-mqtt --save-dev
+    npm install evrythng-mqtt --save
 
 ## Usage
 
