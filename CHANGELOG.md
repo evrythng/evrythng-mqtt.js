@@ -1,3 +1,9 @@
+# v1.0.4 (31-07-2015)
+
+## Bug Fixes
+
+- **Publish**: silence rejection from hijacked HTTP request.
+
 # v1.0.3 (25-06-2015)
 
 ## Features

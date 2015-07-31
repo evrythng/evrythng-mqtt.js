@@ -37,7 +37,7 @@ mqtt.setup({
   clientIdPrefix: 'evtjs'
 });
 
-var operator = new EVT.Operator('{operatorApiKey'});
+var operator = new EVT.Operator(OPERATOR_API_KEY);
 var thngResource = operator.thng('{thngId}');
 
 // Subscribe to property updates of a particular thng

@@ -1,6 +1,6 @@
 {
   "name": "evrythng-mqtt",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "lib/evrythng-mqtt.js",
   "description": "Evrythng.js MQTT plugin for MQTT real-time communication with EVRYTHNG API",
   "repository": {
@@ -18,9 +18,10 @@
     "web of things",
     "thng-hub",
     "hub",
-    "mqtt"
+    "mqtt",
+    "thng-scan",
+    "scanthng"
   ],
-  "author": "EVRYTHNG Ltd.",
   "licenses": [
     {
       "type": "Apache-2.0",

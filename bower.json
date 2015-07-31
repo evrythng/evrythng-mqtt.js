@@ -1,19 +1,15 @@
 {
   "name": "evrythng-mqtt",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/evrythng-mqtt.js",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
-    "tools",
-    "lib",
+    "plugins",
     "src",
     "*.html",
-    "build.txt",
-    "DEVELOPMENT.md",
-    "karma*.js",
     "Gruntfile.js"
   ],
   "license": "Apache-2.0",
