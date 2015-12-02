@@ -1,0 +1,21 @@
+{
+  "name": "evrythng-mqtt",
+  "version": "1.0.5",
+  "main": "dist/evrythng-mqtt.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "plugins",
+    "src",
+    "*.html",
+    "Gruntfile.js"
+  ],
+  "license": "Apache-2.0",
+  "endpoint": "https://github.com/evrythng/evrythng-mqtt.js.git",
+  "dependencies": {
+    "evrythng": "^3.4.0"
+  },
+  "private": true
+}

@@ -33,7 +33,7 @@ EVT.use(mqtt);
 mqtt.setup({
   apiUrl: 'mqtts://mqtt.evrythng.com:8883/mqtt',
   reconnectPeriod: 1000,
-  keepAlive: 10,
+  keepAlive: 50,
   clientIdPrefix: 'evtjs'
 });
 

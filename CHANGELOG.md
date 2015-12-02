@@ -1,3 +1,11 @@
+# v1.0.5 (02-12-2015)
+
+## Bug fixes
+
+- **Resubscribe on reconnect** - Restore subscriptions after reconnect.
+- **One connection per scope** - When making multiple subscriptions in parallel, only 
+one connection per scope should be created.
+
 # v1.0.4 (31-07-2015)
 
 ## Bug Fixes
