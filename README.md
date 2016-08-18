@@ -5,8 +5,7 @@
 
 It adds MQTT support to any resource, allowing to *publish*, *subscribe* and *unsubscribe* to the resource's topics easily.
 
-**evrythng-mqtt.js** is only available for Node.js as a NPM package. For browsers, another plugin supporting 
-WebSockets is coming shortly.
+**evrythng-mqtt.js** is only available for Node.js as a NPM package. For browsers, consider using [evrythng-ws.js](https://github.com/evrythng/evrythng-ws.js).
 
 ## Installation
 
@@ -67,7 +66,7 @@ thngResource.property().unsubscribe();
 
 ## Documentation
 
-Check all the available subscriptions on the [EVRYTHNG Pubsub documentation](https://dashboard.evrythng.com/developers/apidoc/pubsub).
+Check all the available subscriptions on the [EVRYTHNG Pubsub documentation](https://developers.evrythng.com/docs/pubsub).
 
 ## Source Maps
 

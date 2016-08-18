@@ -1,3 +1,9 @@
+# v1.0.7 (18-08-2016)
+
+## Bug fixes
+
+- **Unsubscribe** - Fix subscription not being removed correctly on unsubscribe.
+
 # v1.0.6 (14-12-2015)
 
 ## Bug fixes
