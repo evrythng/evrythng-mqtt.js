@@ -1,3 +1,9 @@
+# v1.0.8 (29-09-2016)
+
+## Bug fixes
+
+- **Subscribe** - Fix multiple subscriptions not being handled correctly.
+
 # v1.0.7 (18-08-2016)
 
 ## Bug fixes

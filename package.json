@@ -1,6 +1,6 @@
 {
   "name": "evrythng-mqtt",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "lib/evrythng-mqtt.js",
   "description": "Evrythng.js MQTT plugin for MQTT real-time communication with EVRYTHNG API",
   "repository": {

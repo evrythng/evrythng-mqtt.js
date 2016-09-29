@@ -27,39 +27,56 @@ EVT.use(mqtt);
 
 #### General
 
+Use specific settings (below are defaults)
+
 ```javascript
-// Use different settings (below are defaults)
 mqtt.setup({
   apiUrl: 'mqtts://mqtt.evrythng.com:8883/mqtt',
   reconnectPeriod: 1000,
   keepAlive: 50,
   clientIdPrefix: 'evtjs'
 });
+```
 
+Authenticate as an Operator and read a Thng object:
+
+```javascript
 var operator = new EVT.Operator(OPERATOR_API_KEY);
 var thngResource = operator.thng('{thngId}');
+```
 
-// Subscribe to property updates of a particular thng
+Subscribe to property updates of a particular Thng:
+
+```javascript
 thngResource.property().subscribe(function(update){
   console.log(update);
 });
+```
 
-// Publish
-// Property updates
-thngResource.property('test').publish(123);
+Publish property updates:
 
-// Actions
+```javascript
+thngResource.property('key').publish(value);
+```
+
+Create an action:
+
+```javascript
 thngResource.action('scans').publish();
+```
 
-// Thng
+Update a Thng:
+
+```javascript
 thngResource.publish({
   name: 'My new cool name'
 });
+```
 
-// Unsubscribe to a subscribed topic
+Unsubscribe to a subscribed topic:
+
+```javascript
 thngResource.property().unsubscribe();
-
-...
 ```
 
 ---
