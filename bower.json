@@ -1,6 +1,6 @@
 {
   "name": "evrythng-mqtt",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "main": "dist/evrythng-mqtt.js",
   "ignore": [
     "**/.*",
@@ -15,7 +15,7 @@
   "license": "Apache-2.0",
   "endpoint": "https://github.com/evrythng/evrythng-mqtt.js.git",
   "dependencies": {
-    "evrythng": "^3.7.0"
+    "evrythng": "^4.2.0"
   },
   "private": true
 }
